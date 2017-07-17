@@ -1,0 +1,46 @@
+{
+	"video.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/bvd.css",
+			"js/bvd.js"
+		],
+		"refer": []
+	},
+	"demo/demo1/index.html": {
+		"resources": [
+			"demo/demo1/style.css",
+			"demo/demo1/video.js",
+			"demo/vendorstyle.css",
+			"demo/vendorscript.js",
+			"demo/demo1/jquery-1.11.0.js",
+			"demo/demo1/control.png",
+			"demo/bg.jpg",
+			"demo/demo1/poster.jpg",
+			"demo/demo1/bigplay.png",
+			"demo/demo1/loading.gif"
+		]
+	},
+	"demo/demo1/webenh-index.html": {
+		"resources": [
+			"demo/demo1/jquery-1.11.0.js",
+			"demo/demo1/style.css",
+			"demo/demo1/video.js",
+			"demo/demo1/control.png",
+			"demo/demo1/poster.jpg",
+			"demo/demo1/bigplay.png",
+			"demo/demo1/loading.gif"
+		]
+	},
+	"webenh-index.html": {
+		"resources": [
+			"style.css",
+			"jquery-1.11.0.js",
+			"poster.jpg",
+			"control.png",
+			"video.js",
+			"bigplay.png",
+			"loading.gif"
+		]
+	}
+}
