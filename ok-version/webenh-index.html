@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	
+<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<title>Demo 1 | Custom HTML5 Video Controls with jQuery</title>
+<script src="jquery-1.11.0.js"></script>
+
+
+<link rel="stylesheet" href="style.css" />
+<script src="video.js"></script>
+
+
+</head>
+
+<body>
+
+
+
+
+
+<div class="videoContainer">
+	<video id="myVideo" controls-preload="auto"  webkit-playsinline="true" poster="poster.jpg" width="100%" height="100%">
+	  <source src="http://img.ksbbs.com/asset/Mon_1703/05cacb4e02f9d9e.mp4" type="video/mp4" />
+	  <p>Your device does not support the video tag.</p>
+	</video>
+	<div class="caption">视频标题</div>
+	<div class="control">
+		<div class="topControl">
+			<div class="progress">
+				<span class="bufferBar"></span>
+				<span class="timeBar"></span>
+			</div>
+			<div class="time">
+				<span class="current"></span> / 
+				<span class="duration"></span>
+			</div>
+		</div>
+		<div class="btmControl">
+			<div class="btnPlay btn" title="Play/Pause video"></div>
+			<div class="btnStop btn" title="Stop video" style="display: none;"></div>
+			<div class="spdText btn" style="display: none;">Speed: </div>
+			<div class="btnx1 btn text selected" title="正常播放">1x</div>
+			<div class="btnx12 btn text" title="1.2倍速率播放">1.2x</div>
+			<div class="btnx15 btn text" title="1.5倍速率播放">1.5x</div>
+			<div class="btnx2 btn text" title="2倍速率播放" style="display: none;">2x</div>
+			<div class="btnx3 btn text" title="3倍速率播放" style="display: none;">3x</div>
+			<div class="btnFS btn" title="全屏切换"></div>
+			<div class="btnLight lighton btn" title="开灯/关灯" style="display: none;"></div>
+			<div class="volume" title="音量调节">
+				<div style="background-color: black;width: 100%;height: inherit;">
+					<span class="volumeBar"></span>
+				</div>
+			</div>
+			<div class="sound sound2 btn" title="静音"></div>
+		</div>
+	</div>
+	<div class="loading"></div>
+</div>
+
+
+
+
+
+</body>
+</html>
